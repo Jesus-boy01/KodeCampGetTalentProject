@@ -1,0 +1,11 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+.icon-display {
+    visibility: visible !important;
+}
+@media (max-width: 993px) {
+    #join {
+        width: 25%;
+    }
+}

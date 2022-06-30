@@ -1,0 +1,18 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+@media (min-width: 770px) {
+    .container {
+        width: 60% !important;
+    }
+}
+@media (min-width: 475px) and (max-width: 540px) {
+    .sign-in-button a {
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 425px) {
+    .sign-in-button a {
+        font-size: 13px !important;
+    }
+}
