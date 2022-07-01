@@ -9,3 +9,8 @@
         width: 25%;
     }
 }
+@media (max-width: 425px) {
+    .sign-in-personnel img {
+        display: none;
+    }
+}
