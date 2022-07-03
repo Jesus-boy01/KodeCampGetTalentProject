@@ -11,7 +11,7 @@ togglePassword.addEventListener('click', function () {
 });
 
 password.addEventListener('focus', iconDisplay);
-password.addEventListener('focus', changeButtonColor);
+password.addEventListener('input', changeButtonColor);
 
 function iconDisplay() {
     if (!(onfocus)) {
@@ -19,7 +19,7 @@ function iconDisplay() {
     }
 }
 
-email.addEventListener('focus', changeButtonColor);
+email.addEventListener('input', changeButtonColor);
 
 function changeButtonColor() {
     signIn.classList.add("button-active-color")
