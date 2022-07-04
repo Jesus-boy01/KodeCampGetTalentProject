@@ -13,6 +13,7 @@ togglePassword.addEventListener('click', function () {
 
 password.addEventListener('focus', iconDisplay);
 password.addEventListener('focus', passwordInformation);
+password.addEventListener('input', changeButtonColor);
 
 function iconDisplay() {
     if (!(onfocus)) {
@@ -21,7 +22,7 @@ function iconDisplay() {
 }
 
 function passwordInformation() {
-    passwordInfo.innerHTML = "Password should be at least 8 characters";
+    passwordInfo.innerHTML = "Password must be at least 8 characters";
 }
 
 email.addEventListener('input', changeButtonColor);
@@ -34,8 +35,10 @@ signIn.addEventListener('click', signinSuccess);
 
 function signinSuccess(e) {
     e.preventDefault();
+    
+    const passwordValue = document.getElementById("password").value;
 
-    if (email.value && password.value) {
+    if ((email.value && password.value) && (passwordValue.length >= 8)) {
         window.location.href = 'index.html';
     } else {
         alert("Email and Password must be filled");
