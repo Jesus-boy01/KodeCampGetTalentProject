@@ -1,14 +1,9 @@
 * {
     font-family: 'Inter', sans-serif;
 }
-@media (min-width: 770px) {
+@media (min-width: 540px) {
     #google-container {
         width: 50% !important;
-    }
-}
-@media (min-width: 475px) and (max-width: 540px) {
-    .sign-in-button a {
-        font-size: 16px !important;
     }
 }
 @media (max-width: 425px) {
