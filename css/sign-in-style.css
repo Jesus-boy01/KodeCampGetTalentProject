@@ -10,11 +10,6 @@
 .button-active-color {
     background-color: #2776EA !important;
 }
-@media (max-width: 993px) {
-    #join {
-        width: 25%;
-    }
-}
 @media (max-width: 425px) {
     .sign-in-personnel img {
         display: none;
