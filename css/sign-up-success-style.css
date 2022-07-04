@@ -2,7 +2,7 @@
     font-family: 'Inter', sans-serif;
 }
 @media (min-width: 768px) {
-    .container {
+    #sign-up-wrapper {
         width: 40% !important;
     }
 }
