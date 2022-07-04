@@ -2,6 +2,7 @@ const password = document.getElementById("password");
 const togglePassword = document.getElementById("toggle-password");
 const email = document.getElementById("email");
 const signIn = document.getElementById("signin");
+const passwordInfo = document.getElementById("password-info");
 
 togglePassword.addEventListener('click', function () {
     const type = password.getAttribute("type") === "password" ? "text" : "password";
