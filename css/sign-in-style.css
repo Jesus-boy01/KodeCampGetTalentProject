@@ -18,3 +18,8 @@
         font-size: 18px !important;
     }
 }
+@media (max-width: 345px) {
+    .nav-item p {
+        display: none;
+    }
+}
