@@ -19,7 +19,7 @@
     }
 }
 @media (max-width: 345px) {
-    .nav-item p {
-        display: none;
+    .nav-item p, #join {
+        font-size: 15px;
     }
 }
