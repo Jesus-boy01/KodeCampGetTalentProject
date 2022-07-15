@@ -45,17 +45,20 @@ function formValidation() {
 }
 
 function addModalFunction() {
-    successModal.innerHTML = `<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
+    successModal.innerHTML = `<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-dialog-centered">
                                 <div class="modal-content border-0">
+                                    <div class="modal-header px-3 pt-3" style="background-color: #3AB418; border-color: #3AB418 !important;">
+                                        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
                                     <div class="modal-title password-reset-success-head text-center" style="background-color: #3AB418; border-color: #3AB418 !important;">
-                                        <div class="password-reset-title text-white py-3">
+                                        <div class="password-reset-title text-white pb-3">
                                             <h3 class="display-6">Done!</h3>
                                         </div>
                                     </div>
                                     <div class="modal-body">
                                         <div class="password-reset-success-content text-center">
-                                            <div class="password-reset-image py-3 mx-auto">
+                                            <div class="password-reset-image mx-auto">
                                                 <img src="img/password-reset-success.png" class="img-fluid" alt="Password Reset Success">
                                             </div>
                                             <div class="password-reset-info pb-lg-3">
