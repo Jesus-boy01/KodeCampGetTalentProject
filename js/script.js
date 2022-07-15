@@ -60,11 +60,11 @@ function addModalFunction() {
                                                 <div class="sign-up-image mx-auto">
                                                     <img src="img/sign-up-success.png" class="img-fluid" alt="Sign Up Success">
                                                 </div>
-                                                <div class="sign-up-success-info pb-lg-3 pt-lg-2">
+                                                <div class="sign-up-success-info pb-lg-3 pt-2">
                                                     <p class="mx-2" style="color: #555;">Your account has been successfully created!</p>
                                                 </div>
                                                 <div class="sign-up-success-button mb-lg-5 mb-md-4 mb-4">
-                                                    <a href="home.html" class="text-decoration-none text-center fs-lg-5 btn btn-primary py-2 mx-auto" style="width: 30%; background-color: #2776EA; border-color: #2776EA;">Get Started</a>
+                                                    <a href="home.html" class="text-decoration-none text-center fs-lg-5 btn btn-primary py-2 mx-auto" style="width: 48%; background-color: #2776EA; border-color: #2776EA;">Get Started</a>
                                                 </div>
                                             </div>
                                         </div>
