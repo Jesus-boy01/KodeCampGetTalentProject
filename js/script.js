@@ -62,8 +62,7 @@ function addModalFunction() {
                                                 <p class="mx-2" style="color: #555;">Email sent, password reset successful.</p>
                                             </div>
                                             <div class="password-reset-button mb-lg-5 mb-md-4 mb-4">
-                                                <a href="sign-in.html" class="text-decoration-none text-center fs-lg-5 btn btn-primary py-2 mx-auto" style="width: 20%; background-color: #2776EA; border-color: #2776EA;">Sign In</a>
-                                                <a href="sign-up-success.html">Test</a>
+                                                <a href="sign-in.html" class="text-decoration-none text-center fs-lg-5 btn btn-primary py-2 mx-auto" style="width: 30%; background-color: #2776EA; border-color: #2776EA;">Sign In</a>
                                             </div>
                                         </div>
                                     </div>
