@@ -19,7 +19,7 @@ let currentLocation = window.location + "";
 
 console.log(currentLocation);
 
-if (currentLocation === "https://meritdike.github.io/kodecamp-get-talent-project/updated-pp.html") {
+if (currentLocation === "https://jesus-boy01.github.io/KodeCampGetTalentProject/update.html") {
     renderProfileUpdate();
 }
 
