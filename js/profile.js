@@ -14,41 +14,20 @@ window.localStorage.setItem("recruiterSalary", recruiterSalary);
 window.localStorage.setItem("recruiterLocation", recruiterLocation);
 window.localStorage.setItem("recruiterAbout", recruiterAbout);
 
-
-// window.onhashchange = function() { //when the hash changes (the '#' part)
-//     var loc = window.location + ""; //get the current location (from the address bar)
-//     var curHash = loc.substr(loc.lastIndexOf("#")); //get what's after the '#'
-//     if(curHash !== "#home") { //if it's #home
-//         renderProfileUpdate();
-//     }
-// };
-
-// if (document.referrer === "http://127.0.0.1:5500/update.html") {
-//     console.log("True");
-// }
-
 if (document.referrer === "https://jesus-boy01.github.io/KodeCampGetTalentProject/update.html") {
     renderProfileUpdate();
 }
 
-// if (currentLocation === "https://jesus-boy01.github.io/KodeCampGetTalentProject/update.html") {
-    
+// if (document.referrer === "http://127.0.0.1:5500/update.html") {
+//     renderProfileUpdate();
 // }
 
 function renderProfileUpdate() {
-    let recruiterProfileNameUpdate = document.querySelector(".name-update");
-    let recruiterProfileCompanyUpdate = document.querySelector(".company-update");
-    let recruiterProfileTypeUpdate = document.querySelector(".type-update");
-    let recruiterProfileSizeUpdate = document.querySelector(".size-update");
-    let recruiterProfileSalaryUpdate = document.querySelector(".salary-update");
-    let recruiterProfileLocationUpdate = document.querySelector(".location-update");
-    let recruiterProfileAboutUpdate = document.querySelector(".about-update");
-
-    recruiterProfileNameUpdate.innerText = localStorage.getItem("recruiterNameUpdate");
-    recruiterProfileCompanyUpdate.innerText = localStorage.getItem("recruiterCompanyUpdate");
-    recruiterProfileTypeUpdate.innerText = localStorage.getItem("recruiterTypeUpdate");
-    recruiterProfileSizeUpdate.innerText = localStorage.getItem("recruiterSizeUpdate");
-    recruiterProfileSalaryUpdate.innerText = localStorage.getItem("recruiterSalaryUpdate");
-    recruiterProfileLocationUpdate.innerText = localStorage.getItem("recruiterLocationUpdate");
-    recruiterProfileAboutUpdate.innerText = localStorage.getItem("recruiterAboutUpdate");
+    document.getElementById("recruiter-name").innerText = localStorage.getItem("recruiterNameUpdate");
+    document.getElementById("recruiter-company").innerText = localStorage.getItem("recruiterCompanyUpdate");
+    document.getElementById("recruiter-type").innerText = localStorage.getItem("recruiterTypeUpdate");
+    document.getElementById("recruiter-size").innerText = localStorage.getItem("recruiterSizeUpdate");
+    document.getElementById("recruiter-salary").innerText = localStorage.getItem("recruiterSalaryUpdate");
+    document.getElementById("recruiter-location").innerText = localStorage.getItem("recruiterLocationUpdate");
+    document.getElementById("recruiter-about").innerText = localStorage.getItem("recruiterAboutUpdate");
 }
