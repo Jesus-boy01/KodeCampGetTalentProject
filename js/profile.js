@@ -15,13 +15,25 @@ window.localStorage.setItem("recruiterLocation", recruiterLocation);
 window.localStorage.setItem("recruiterAbout", recruiterAbout);
 
 
-let currentLocation = window.location + "";
+// window.onhashchange = function() { //when the hash changes (the '#' part)
+//     var loc = window.location + ""; //get the current location (from the address bar)
+//     var curHash = loc.substr(loc.lastIndexOf("#")); //get what's after the '#'
+//     if(curHash !== "#home") { //if it's #home
+//         renderProfileUpdate();
+//     }
+// };
 
-console.log(currentLocation);
+// if (document.referrer === "http://127.0.0.1:5500/update.html") {
+//     console.log("True");
+// }
 
-if (currentLocation === "https://jesus-boy01.github.io/KodeCampGetTalentProject/update.html") {
+if (document.referrer === "https://jesus-boy01.github.io/KodeCampGetTalentProject/update.html") {
     renderProfileUpdate();
 }
+
+// if (currentLocation === "https://jesus-boy01.github.io/KodeCampGetTalentProject/update.html") {
+    
+// }
 
 function renderProfileUpdate() {
     let recruiterProfileNameUpdate = document.querySelector(".name-update");
